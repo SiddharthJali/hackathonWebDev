@@ -239,6 +239,30 @@ function showPosition(position) {
     <div class="form">
 
       <form action="/action_page.php" method="post" enctype="multipart/form-data">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Complain" aria-label="text">
+          </div>
+          <div class="col">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Type</option>
+              <option value="1">No helmet</option>
+              <option value="2">Smoke emission</option>
+              <option value="3">Over speeding</option>
+              <option value="3">Rash driving</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Latitude" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Longitude" aria-label="Last name">
+          </div>
+        </div>
+        <br>
         <div class="input-group mb-3">
           <input type="file" class="form-control" id="inputGroupFile02">
           <input type="submit" class="input-group-text" for="inputGroupFile02"></input>
